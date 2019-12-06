@@ -1,6 +1,5 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
 #include <QMainWindow>
 #include <QFileDialog>
 #include <QInputDialog>
@@ -43,6 +42,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     Equipe equipe;
+    Atleta atleta;
     void atualizarEstatisticas();
     void inserirNaTabela(Atleta a, int linha);
 };

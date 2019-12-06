@@ -8,16 +8,18 @@
 class Atleta
 {
 private:
-      QString nome;
-      double idade;
+    QString nome;
+    double idade;
 
 public:
     Atleta();
 
     QString getnome();
-    void setnome(QString &value);
+    bool setnome(QString value);
+
     double getidade();
-    void setidade(double value);
+    bool setidade(double value);
+
     QString getcategoria();
     QString subdivisao(double idade);
 

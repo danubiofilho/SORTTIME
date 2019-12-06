@@ -12,10 +12,13 @@ QString Atleta::getnome()
     return nome;
 }
 
-void Atleta::setnome( QString &value)
+bool Atleta::setnome(QString value)
 {
     if(value.size()>2){
-        nome=value;
+        nome = value;
+        return true;
+    }else{
+        return false;
     }
 }
 
@@ -24,17 +27,17 @@ double Atleta::getidade()
     return idade;
 }
 
-void Atleta::setidade(double value)
+bool Atleta::setidade(double value)
 {
-    idade = value;
-
-   /* if(value<0){
-        idade=0;
+    if(value>4){
+        idade = value;
+        return  true;
     }else{
-        idade=value;
+        return false;
     }
-    */
 }
+
+
 
 QString Atleta::getcategoria(){
     return subdivisao(idade);

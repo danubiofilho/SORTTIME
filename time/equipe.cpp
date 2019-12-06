@@ -5,20 +5,22 @@ Equipe::Equipe()
 
 }
 
+void Equipe::limparTabela()
+{
+    equipe.clear();
+}
 void Equipe::eraseNome(QString txt)
 {
     for(int i=0; i< equipe.size();i++){
-        if(equipe[i].getnome()!=txt){
+        if(equipe[i].getnome()==txt){
             equipe.erase((equipe.begin()+i));
         }
     }
-
 }
-
 void Equipe::eraseIdade(QString num)
 {
     for(int i=0; i< equipe.size();i++){
-        if(equipe[i].getidade() != num.toDouble()){
+        if(equipe[i].getidade()- num.toDouble()<0.1){
             equipe.erase((equipe.begin()+i));
         }
     }
@@ -46,7 +48,7 @@ double Equipe::getMaioridade()
 
 double Equipe::getMenoridade()
 {
-   Atleta *a = std::min_element(equipe.begin(),equipe.end(),compararPorIdade);
+    Atleta *a = std::min_element(equipe.begin(),equipe.end(),compararPorIdade);
     return a->getidade();
 }
 
@@ -67,13 +69,13 @@ void Equipe::inserirAluno(Atleta a)
 bool Equipe::atletaExiste(QString nome)
 {
     if(equipe.size() >= 1){
-            for(int i = 0; i < equipe.size(); i++){
-                if(nome == equipe[i].getnome()){
-                    return 1;
-                }
+        for(int i = 0; i < equipe.size(); i++){
+            if(nome == equipe[i].getnome()){
+                return 1;
             }
         }
-        return 0;
+    }
+    return 0;
 }
 int Equipe::size()
 {
