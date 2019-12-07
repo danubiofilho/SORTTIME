@@ -2,7 +2,7 @@
 
 #### Projeto feito utilizando Qt Creator para a disciplina de Técnicas de Programação 2019.1!
 
-A aplicação "Sort_Time", realizada no Qt creator e com linguagem C++, permite que o usuário faça uma Sorteio de Times inserindo na tabela (tableWidget)os dados dos atletas a ser efetuado, tais como: o nome e idade. Após preencher os dados, o usuário vai ter retorno dos times sorteados . A "Sort-Time" tem como objetivo acelerar o tempo para  selecionar os times, já que o usuário alem de sortear na hora da pelada ele pode pode carregar os dados de em arquivo .csv. 
+A aplicação "Sort_Time", realizada no Qt creator e com linguagem C++, permite que o usuário faça um Sorteio de Times inserindo na tabela (tableWidget)os dados dos atletas a ser efetuado, tais como: o nome e idade. Após preencher os dados, o usuário vai ter retorno dos times sorteados . A "Sort-Time" tem como objetivo acelerar o tempo para  selecionar os times, já que o usuário alem de sortear na hora da pelada ele pode pode carregar os dados de em arquivo .csv. 
 	 O programa é bem genérico o usuário pode entrar com quantos atletas quiser e em seguida dizer quantos times tem, será explicado a seguir no manual.
 			 Dependendo de como  o usuário desejar organizar a tabela por ordem alfabética e por idade.
 # Como fazer o cadastro
