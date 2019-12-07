@@ -21,6 +21,7 @@ O usuário não pode cadastrar atleta com menos de 3 caracteres, menores de 5 an
 ![cadastrar invalido](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/cadastrar%20invalido.png)
 ## Como alterar na Tabela
 Para alterar o nome ou idade o usuário deve ta dois cliques, e selecionar que deseja fazer a alteração, e inserir o novo nome ou nova idade. E assim irá sobrescrever.
+
 ![excluir/editar na tabela](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/atualizar%20na%20tabela.png)
 
 ## Como Sortear times Completos
