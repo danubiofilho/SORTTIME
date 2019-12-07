@@ -29,5 +29,5 @@ por exemplo, foram cadastrados 12 atletas, ele pode ter  3 times com 4 atletas, 
 	  
 ![Times Completos](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/12%20atletas.png) 
 # Como sortear times não completos
-Caso a combinação seja de times que não sejam completos o(s) ultimo(os) atletas ficam no time de fora. Por exemplo, caso sejam 18 atletas e se deseja times de 5  pessoas, os 15 primeiros formam 5 times de 5(na ordem já discutida), e os 3 ultimos formam o "time de fora" e para completar o quarto time com os que já jogaram.
+Caso a combinação seja de times que não sejam completos o(s) ultimo(os) atletas ficam no time de fora. Por exemplo, caso sejam 18 atletas e se deseja times de 5  pessoas, os 15 primeiros formam 3 times de 5(na ordem já discutida), e os 3 ultimos formam o "time de fora" e para completar o quarto time com os que já jogaram.
 ![Times Não Completos](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/atletas%2018%20jogadores.png)
