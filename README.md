@@ -17,12 +17,13 @@ No canto superior esquerdo tem a opção "arquivo" e ao clicar aparece três nov
 O usuário não pode cadastrar atleta com menos de 3 caracteres, menores de 5 anos de idade ou cadastrar vazio.
 ![cadastrar invalido](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/cadastrar%20invalido.png)
 ## Como alterar na Tabela
-Para alterar o nome ou idade o usuário deve ta dois cliques, e selecionar que deseja fazer a alteração, e inserir o novo nome ou nova idade. E assim irá sobrescrever.![excluir/editar na tabela]
-(https://github.com/danubiofilho/SORTTIME/blob/master/Prints/atualizar%20na%20tabela.png)
+Para alterar o nome ou idade o usuário deve ta dois cliques, e selecionar que deseja fazer a alteração, e inserir o novo nome ou nova idade. E assim irá sobrescrever.
+![excluir/editar na tabela](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/atualizar%20na%20tabela.png)
 
 ## Como Sortear times Completos
-	  por exemplo, foram cadastrados 12 atletas, ele pode ter  3 times com 4 atletas, onde os 4 primeiros (1-4) do primeiro time, os 4 segundos (5-8) no segundo time, e os 4 últimos (9-12)no terceiro time. Como pode escolher outra combinação, sempre dizendo o numero de jogadores por time e a ordem seria os primeiros times.
+por exemplo, foram cadastrados 12 atletas, ele pode ter  3 times com 4 atletas, onde os 4 primeiros (1-4) do primeiro time, os 4 segundos (5-8) no segundo time, e os 4 últimos (9-12)no terceiro time. Como pode escolher outra combinação, sempre dizendo o numero de jogadores por time e a ordem seria os primeiros times.
+	  
 ![Times Completos](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/12%20atletas.png) 
 # Como sortear times não completos
-	Caso a combinação seja de times que não sejam completos o(s) ultimo(os) atletas ficam no time de fora. Por exemplo, caso sejam 18 atletas e se deseja times de 5  pessoas, os 15 primeiros formam 5 times de 5(na ordem já discutida), e os 3 ultimos formam o "time de fora" e para completar o quarto time com os que já jogaram.
+Caso a combinação seja de times que não sejam completos o(s) ultimo(os) atletas ficam no time de fora. Por exemplo, caso sejam 18 atletas e se deseja times de 5  pessoas, os 15 primeiros formam 5 times de 5(na ordem já discutida), e os 3 ultimos formam o "time de fora" e para completar o quarto time com os que já jogaram.
 ![Times Não Completos](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/atletas%2018%20jogadores.png)
