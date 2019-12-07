@@ -9,12 +9,14 @@ A aplicação "Sort_Time", realizada no Qt creator e com linguagem C++, permite 
 Onde tem "Nome" e "idade" o usuário entra com o nome e idade , respectivamente, do atleta em questão. E ao lado da idade retorna a qual categoria o atleta faz parte.
 ![Tela inicial](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/Tela%20Inicial.png)
 ## Estatística
-Ao clicar na aba "estatística" o usuário vai ter acesso a maior idade, menor idade e a media das idades.![aba de estatística](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/estatistica.png)
+Ao clicar na aba "estatística" o usuário vai ter acesso a maior idade, menor idade e a media das idades.
+![aba de estatística](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/estatistica.png)
 ## Como usar os botões
 No canto superior esquerdo tem a opção "arquivo" e ao clicar aparece três novas opções,  "Carregar", "Salvar" e "Limpar Tabela", e funcionam respectivamente,  carrega um arquivo csv. já preenchido antes da pelada pelo usuário e assim acelera o processo, apos cadastrar  todos os atletas o usuário pode arquivar para posteriormente saber quem estava na pelada, e por fim ao Limpar a Tabela o usuário exclui todos os atletas já cadastrados. No canto inferior, a opção de fazer ordenação, seja por ordem alfabética ou por idade, e sortear tem função de determinar os times.
 ![Botões da tela](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/carragr%20e%20salvar.png)
 ## Casos especiais
 O usuário não pode cadastrar atleta com menos de 3 caracteres, menores de 5 anos de idade ou cadastrar vazio.
+
 ![cadastrar invalido](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/cadastrar%20invalido.png)
 ## Como alterar na Tabela
 Para alterar o nome ou idade o usuário deve ta dois cliques, e selecionar que deseja fazer a alteração, e inserir o novo nome ou nova idade. E assim irá sobrescrever.
