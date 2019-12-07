@@ -17,7 +17,8 @@ No canto superior esquerdo tem a opção "arquivo" e ao clicar aparece três nov
 O usuário não pode cadastrar atleta com menos de 3 caracteres, menores de 5 anos de idade ou cadastrar vazio.
 ![cadastrar invalido](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/cadastrar%20invalido.png)
 ## Como alterar na Tabela
-Para alterar o nome ou idade o usuário deve ta dois cliques, e selecionar que deseja fazer a alteração, e inserir o novo nome ou nova idade. E assim irá sobrescrever.![excluir/editar na tabela](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/cadastrar%20invalido.png)
+Para alterar o nome ou idade o usuário deve ta dois cliques, e selecionar que deseja fazer a alteração, e inserir o novo nome ou nova idade. E assim irá sobrescrever.![excluir/editar na tabela]
+(https://github.com/danubiofilho/SORTTIME/blob/master/Prints/atualizar%20na%20tabela.png)
 
 ## Como Sortear times Completos
 	  por exemplo, foram cadastrados 12 atletas, ele pode ter  3 times com 4 atletas, onde os 4 primeiros (1-4) do primeiro time, os 4 segundos (5-8) no segundo time, e os 4 últimos (9-12)no terceiro time. Como pode escolher outra combinação, sempre dizendo o numero de jogadores por time e a ordem seria os primeiros times.
