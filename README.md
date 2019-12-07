@@ -7,6 +7,7 @@ A aplicação "Sort_Time", realizada no Qt creator e com linguagem C++, permite 
 			 Dependendo de como  o usuário desejar organizar a tabela por ordem alfabética e por idade.
 # Como fazer o cadastro
 Onde tem "Nome" e "idade" o usuário entra com o nome e idade , respectivamente, do atleta em questão. E ao lado da idade retorna a qual categoria o atleta faz parte.
+
 ![Tela inicial](https://github.com/danubiofilho/SORTTIME/blob/master/Prints/Tela%20Inicial.png)
 ## Estatística
 Ao clicar na aba "estatística" o usuário vai ter acesso a maior idade, menor idade e a media das idades.
