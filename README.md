@@ -1,4 +1,4 @@
-# # Sort-Time!
+## Sort-Time!
 
 #### Projeto feito utilizando Qt Creator para a disciplina de Técnicas de Programação 2019.1!
 
